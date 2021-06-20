@@ -22,7 +22,7 @@ const Item = memo(({ user }) => {
     })
 
     return(
-        <li>
+        <li className="font-normal pl-2">
             {user.name}
         </li>
     )

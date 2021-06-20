@@ -23,11 +23,14 @@ const List = memo(({ users }) => {
     })
 
     return(
-        <ul>
-            { users.map(user =>
-                <Item user={user} key={user.id}/>
-            )}
-        </ul>
+        <div>
+            <h6 className="font-bold">Users</h6>
+            <ul className="list-disc list-outside bg-gray-100 hover:bg-gray-200 rounded">
+                { users.map(user =>
+                    <Item user={user} key={user.id}/>
+                )}
+            </ul>
+        </div>
     )
 })
 

@@ -1,5 +1,5 @@
 /* Example of React Memo. */
-import Memo from './components/Memo/'
+import Memo from './Components/Memo/'
 
 const App = () =>
   <Memo/>
