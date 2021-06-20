@@ -1,6 +1,7 @@
+/* Example of React Memo. */
+import Memo from './components/Memo/'
+
 const App = () =>
-  <div className="bg-blue-300">
-      Hello
-  </div>
+  <Memo/>
 
 export default App
