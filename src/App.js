@@ -1,7 +1,9 @@
-/* Example of React Memo. */
+/* Example of React Memo and useMemo. */
 import Memo from './Components/Memo/'
+/* Example of React Memo, useMemo and useCallback. */
+import Callback from './Components/Callback/'
 
 const App = () =>
-  <Memo/>
+  <Callback/>
 
 export default App
