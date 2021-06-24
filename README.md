@@ -15,7 +15,6 @@
     In this repository i'll try to practice the advanced topics from the react roadmap. Each topic that i've studied and practiced will be marked as green.
     <br />
     <br />
-    <br />
   </p>
 </p>
 
