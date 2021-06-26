@@ -1,12 +1,6 @@
 import React from 'react'
-import FocusApp from './FocusApp'
+import CopyApp from './CopyApp'
 
-const Ref = () => {
-    return (
-        <div>
-            <FocusApp/>
-        </div>
-    )
-}
+const Ref = () => <CopyApp/>
 
 export default Ref
