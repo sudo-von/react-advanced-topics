@@ -1,12 +1,6 @@
-/* Example of React Memo and useMemo. */
-import Memo from './Components/Memo/'
-/* Example of React Memo, useMemo and useCallback. */
-import Callback from './Components/Callback/'
-/* Example of useRef. */
-import Ref from './Components/Ref/'
-
+import LayoutEffect from './examples/LayoutEffect'
 
 const App = () =>
-  <Ref/>
+  <LayoutEffect/>
 
 export default App
