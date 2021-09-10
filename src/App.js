@@ -1,6 +1,7 @@
 import LayoutEffect from './examples/LayoutEffect'
+import Context from './examples/Context'
 
 const App = () =>
-  <LayoutEffect/>
+  <Context/>
 
 export default App
