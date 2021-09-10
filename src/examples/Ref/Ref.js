@@ -4,7 +4,6 @@ const Ref = () => {
 
     const reference = useRef()
     const handleFocus = () => reference.current.focus()
-    const handleBlur = () => reference.current.blur()
 
     return (
         <div>
@@ -13,7 +12,6 @@ const Ref = () => {
                 ref={reference}
             />
             <button onClick={handleFocus}>Focus</button>
-            <button onClick={handleBlur}>Blur</button>
         </div>
     )
 }
